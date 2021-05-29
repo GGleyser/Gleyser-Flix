@@ -64,7 +64,10 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <div id="exemple"></div>
+            
+        <script src="{{ asset('js/app.js') }}" defer></script>
+        <!--div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -96,5 +99,6 @@
                 </div>
             </div>
         </div>
+        <--http://www.omdbapi.com/?i=tt3896198&apikey=d80f1b86-->
     </body>
 </html>
